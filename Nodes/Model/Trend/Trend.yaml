@@ -1,0 +1,28 @@
+Name: Trend
+Type: FolderType
+Children:
+- Name: SpeedTrendSelect
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: TemperatureTrendSelect
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: HumidityTrendSelect
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: PressureTrendSelect
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: TimeAxis
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2023-02-03T10:00:00.0000000"
+- Name: TimeAxisDuration
+  Id: g=68aece0a46bab6c20d70ff8e130ad112
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:30.0000000"

@@ -1,0 +1,64 @@
+Name: Alarms
+Type: FolderType
+Children:
+- Name: A1_EstopActive
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: A2_SafetDoopOpen
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: A3_CommunicationLost
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: ActTempVaule
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 60
+- Name: ActPreVaule
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 5
+- Name: AlarmFromDateTime
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2023-03-07T09:00:00.0000000"
+- Name: AlarmToDateTime
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2023-03-07T20:00:00.0000000"
+- Name: AlarmList
+  Id: g=a1d749e32067b19384a25edd3a27119c
+  Type: BaseObjectType
+  Children:
+  - Name: EStop_Active
+    Id: g=7ae5ba070333df56006b4bbd17c37039
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Safety_Door_Open
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Communication_Lost
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Temperature_Low
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Temperature_High
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Pressure_Low
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Pressure_High
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0

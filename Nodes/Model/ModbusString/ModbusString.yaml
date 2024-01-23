@@ -1,0 +1,7 @@
+Name: ModbusString
+Type: FolderType
+Children:
+- Name: StringVar1
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

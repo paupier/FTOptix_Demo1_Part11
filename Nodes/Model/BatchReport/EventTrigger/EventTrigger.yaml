@@ -1,0 +1,28 @@
+Name: EventTrigger
+Id: g=6cd8776c82cee286528cb98350bc18ee
+Type: FolderType
+Children:
+- Name: BatchEventTrigger
+  Id: g=01d9dd164d200cba2131c700bf82d50b
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: BatchEventTriggerTransitioned
+  Id: g=b123fb4111caf840ff6e174bd8640fc6
+  Type: VariableTransitionEventDispatcher
+  Children:
+  - Name: Value
+    Id: g=c6040ec81f5eb573d3ac3c228f8770ca
+    Type: BaseVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: Transition
+    Id: g=7c3397a49095d57c7dc03d17447d3549
+    Type: BaseVariableType
+    DataType: VariableTransition
+    Value: 0
+  - Name: VariableNodePath
+    Id: g=8c2cbe1f432e6ae76be19508ba426d06
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../BatchEventTrigger"

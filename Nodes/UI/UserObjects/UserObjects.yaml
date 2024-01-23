@@ -1,0 +1,60 @@
+Name: UserObjects
+Type: FolderType
+Children:
+- Name: UserGroups
+  Type: BaseObjectType
+  Children:
+  - Name: UserGroupName
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Value: ["0","0","0","0"]
+  - Name: UserGroupCounts
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4
+- Name: PasswordPolicy
+  Id: g=91473e1e81ca797c8e0b69542ea00751
+  Type: BaseObjectType
+  Children:
+  - Name: UppercaseCharacter
+    Id: g=9b2f7d373f277878fe04b914579d6606
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: LowercaseCharacter
+    Id: g=535d705ee91db34e8ba31d42ca442f48
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: SpecialCharacter
+    Id: g=c9e3d17431b65f933225010e67889d74
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: NumericCharacter
+    Id: g=0f1bd31eef591bdbe83a291d9b3a826a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: InvalidLoginAttemptLimit
+    Id: g=7ff8e2d3946c1a4d73b33993570de424
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: PasswordExpiryAlertDays
+    Id: g=c54d67192def57ff5a59cf071730c3ad
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: MaximumPasswordAge
+    Id: g=14fae4751b9a1bf05084b38fab998f75
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: MinimumPasswordLength
+    Id: g=ba0877e1eb07a8d13562d4d002188cb4
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 8

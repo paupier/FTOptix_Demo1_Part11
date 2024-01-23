@@ -1,0 +1,77 @@
+Name: BatchPara
+Type: FolderType
+Children:
+- Name: BatchNumber
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: BatchStartTime
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"
+- Name: BatchStopTime
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"
+- Name: OperatorName
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ""
+- Name: ProducedVials
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: GoodVials
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: BadVials
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: CheckedBy
+  Id: g=415cb4a34425f3d6e9dc12942e816faf
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ""
+- Name: Checked
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ""
+- Name: SelectedBatchNO
+  Id: g=e6522dedb3b10aa0c9a82498cba15ee1
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ""
+- Name: Batchsqlquery
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: StringFormatter1
+    Type: StringFormatter
+    Children:
+    - Name: Format
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ReferenceType: HasParameter
+      Value: {"LocaleId":"en-US","Text":"SELECT BatchNumber, BatchStartTime, BatchStopTime, OperatorName, ProducedVials, GoodVials, BadVials, Checked, CheckedBy FROM \"BatchData\" WHERE BatchNumber = {0:sql_literal}"}
+    - Name: ns=5;Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../SelectedBatchNO"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mode
+      Type: PropertyType
+      DataType: DynamicLinkMode
+      ReferenceType: HasComponent
+      Value: 2

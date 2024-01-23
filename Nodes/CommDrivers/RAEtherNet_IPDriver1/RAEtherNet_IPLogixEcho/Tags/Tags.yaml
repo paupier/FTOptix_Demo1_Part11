@@ -1,0 +1,344 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: Controller Tags
+  Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "Id": 22
+     }
+    }
+   }
+  Children:
+  - Name: Var1
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Var1"
+  - Name: Var2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Var2"
+  - Name: Var3
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Var3"
+  - Name: Var4
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Var4"
+  - Name: Speed
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Speed"
+  - Name: Temperature
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Temperature"
+  - Name: SetTemperature
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SetTemperature"
+  - Name: Humidity
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Humidity"
+  - Name: Pressure
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pressure"
+  - Name: BatchName
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BatchName"
+  - Name: MachineStart
+    Id: g=9b4e5090a880419296fb285edac6f108
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MachineStart"
+  - Name: SetSpeed
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SetSpeed"
+    - Name: AuditSigning Signature
+      Type: AuditInfo
+      ReferenceType: NonHierarchicalOwning
+      Children:
+      - Name: Users
+        Type: BaseObjectType
+      - Name: Groups
+        Type: BaseObjectType
+      - Name: WorkflowType
+        Type: PropertyType
+        DataType: WorkflowType
+        Value: 0
+  - Name: MachineRun
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MachineRun"
+  - Name: FillingTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FillingTime"
+    - Name: AuditSigning Signature
+      Type: AuditInfo
+      ReferenceType: NonHierarchicalOwning
+      Children:
+      - Name: Users
+        Type: BaseObjectType
+      - Name: Groups
+        Type: BaseObjectType
+      - Name: WorkflowType
+        Type: PropertyType
+        DataType: WorkflowType
+        Value: 0
+  - Name: FillingPosition
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FillingPosition"
+    - Name: AuditSigning Signature
+      Type: AuditInfo
+      ReferenceType: NonHierarchicalOwning
+      Children:
+      - Name: Users
+        Type: BaseObjectType
+      - Name: Groups
+        Type: BaseObjectType
+      - Name: WorkflowType
+        Type: PropertyType
+        DataType: WorkflowType
+        Value: 1
+  - Name: FillingDelay
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FillingDelay"
+    - Name: AuditSigning Signature
+      Type: AuditInfo
+      ReferenceType: NonHierarchicalOwning
+      Children:
+      - Name: Users
+        Type: BaseObjectType
+      - Name: Groups
+        Type: BaseObjectType
+      - Name: WorkflowType
+        Type: PropertyType
+        DataType: WorkflowType
+        Value: 1
+  - Name: VialType
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VialType"
+    - Name: AuditSigning Signature
+      Type: AuditInfo
+      ReferenceType: NonHierarchicalOwning
+      Children:
+      - Name: Users
+        Type: BaseObjectType
+      - Name: Groups
+        Type: BaseObjectType
+      - Name: WorkflowType
+        Type: PropertyType
+        DataType: WorkflowType
+        Value: 2
+  - Name: ActualSpeed
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ActualSpeed"
+  - Name: FillingPositionActaul
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FillingPositionActaul"
+  - Name: ActualTemperature
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ActualTemperature"
+  - Name: TemperatureDeviation
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TemperatureDeviation"
+  - Name: VarByte
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [8]
+    Value: [false,false,false,false,false,false,false,false]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VarByte"
+    - Name: OriginalDataType
+      Type: BaseDataVariableType
+      DataType: NodeId
+      AccessLevel: Read
+      Value: "/Types/DataTypes/BaseDataType/Number/UInteger/Byte"
+- Name: 'Program:MachineCtrl'
+  Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "Id": 22
+     }
+    }
+   }
+  Children:
+  - Name: FillingCompleted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MachineCtrl.FillingCompleted"
+  - Name: FillingReady
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MachineCtrl.FillingReady"
+- Name: 'Program:MainProgram'
+  Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "Id": 22
+     }
+    }
+   }
+  Children:
+  - Name: Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Start"
+  - Name: Run
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Run"

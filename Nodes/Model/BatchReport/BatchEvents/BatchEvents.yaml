@@ -1,0 +1,49 @@
+Name: BatchEvents
+Id: g=a2d0f7fdc8716e56d4b4aa0d1a2ece77
+Type: FolderType
+Children:
+- Name: None
+  Id: g=7c548801b88d57cab6b9728b32403132
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: Batch Started
+  Id: g=0b19e9f8d70c6ffedce083172ccd097f
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: Tmperature out of range
+  Id: g=6f33a768944cc5864d6da9fff1510f2f
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: Pressure out of range
+  Id: g=497f3702114ef2557550d0f02a7f83db
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: Nitrogen purging started
+  Id: g=e5a8c8c635ca4d19f6b0ee43a6949e1d
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: Nitrogen purging stopped
+  Id: g=22c06b5a8e78abbb9a37147d24e31b13
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: Infeed Jammed
+  Id: g=43e155c32a7b84c5f32276d83195522d
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: Outfeed Jammed
+  Id: g=e8172a5e561d2b76b62281509f7cfff6
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: Batch Completed
+  Id: g=baf97dfb4b00cf71de606923d1daf7e9
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}

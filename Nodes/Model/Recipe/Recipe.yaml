@@ -1,0 +1,28 @@
+Name: Recipe
+Id: g=7aa5a24c6880937e5e2cc18b353d4cbe
+Type: FolderType
+Children:
+- Name: RecSetSpeed
+  Type: BaseDataVariableType
+  DataType: Int16
+  Value: 0
+- Name: RecAutoMode
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: RecSetTemp
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 0
+- Name: RecSpeedFactor
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: RecProdName
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: RecipeExportImportPath
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "C:\\WorkSpace\\FTOptix\\FTOptix_Demo\\ProjectFiles\\RecipeExported\\ExportedRecipe.CSV"
